@@ -16,3 +16,6 @@ java.io.FileNotFoundException: /Users/jaeho/Desktop/naver1210/study/javawork/.me
 	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2498)
 	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:555)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+2024-12-13 18:14:56,956 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2024-12-13 18:21:25,593 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-16 09:26:50,783 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
