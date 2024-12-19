@@ -6,8 +6,18 @@
 		<item key="DIALOG_Y_ORIGIN" value="346"/>
 	</section>
 	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="true"/>
 		<list key="findhistory">
+			<item value="korean\\"/>
+			<item value="korean"/>
+			<item value="data"/>
 			<item value="str3"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Korean"/>
+			<item value="Korean\"/>
+			<item value="lotto"/>
+			<item value="r"/>
 		</list>
 	</section>
 </section>
