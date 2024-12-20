@@ -1,0 +1,22 @@
+package day1220;
+
+import day1220_2.DbServerSystem;
+
+class Dataprocess extends DbServerSystem
+{
+	private String sql;
+	
+	public Dataprocess() {
+		sql="select";
+		this.dbServerName="Mysql";//protected 인 경우 직접 접근가능(상속관계인 경우만)
+	}
+}
+
+public class Ex3Inheri {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
