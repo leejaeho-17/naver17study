@@ -1,0 +1,52 @@
+package day1223;
+
+interface InterA
+{
+	public void study(); 
+}
+//인터페이스끼리의 상속은 extends
+interface InterB extends InterA
+{
+	public void play();
+}
+
+//클래스가 인터페이스 구현시 implements
+class MyInter implements InterB
+{	
+	@Override
+	public void study() {
+		// TODO Auto-generated method stub
+		System.out.println("그룹 스터디를 합니다");
+	}
+	
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+		System.out.println("그룹 모임을 합니다");
+	}
+	
+	public void job() {
+		System.out.println("밀린 일처리를 합니다");
+	}
+}
+public class Ex1InterfaceInheri {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//상속관계에 따른 호출 메소드 차이를 알아본다.
+		InterA interA=new MyInter();
+		interA.study();
+		System.out.println("=".repeat(30));
+		InterB interB=new MyInter();
+		interB.play();
+		interB.study();
+		System.out.println("=".repeat(30));
+		MyInter myInter=new MyInter();
+		myInter.play();
+		myInter.study();
+		myInter.job();
+		System.out.println("=".repeat(30));
+
+	}
+
+}
