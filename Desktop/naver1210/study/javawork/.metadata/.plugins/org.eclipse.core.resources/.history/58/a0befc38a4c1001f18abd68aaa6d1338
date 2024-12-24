@@ -1,0 +1,16 @@
+package day1224;
+
+import java.io.File;
+
+public class Ex2File {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File file1=new File("/Users/jaeho/Desktop/naver1210/score.txt");
+		System.out.println(file1.length());//글자길이 - 바이트단위
+		System.out.println(file1.canExecute());//true
+		System.out.println(file1.canRead());//true
+		System.out.println(file1.canWrite());//true
+	}
+
+}
